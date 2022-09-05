@@ -3,6 +3,9 @@ class UsersController < ApplicationController
 
   # GET /users or /users.json
   def index
+    ret = User.log_test # call log_test
+    puts '-------------------------------'
+    puts ret # print log_test return
     @users = User.all
   end
 
@@ -68,3 +71,10 @@ class UsersController < ApplicationController
       params.require(:user).permit(:name, :age)
     end
 end
+
+
+# def index
+#   ret = User.log_test # call log_test
+#   puts ret # print log_test return
+#   @users = User.all
+# end

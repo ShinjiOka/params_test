@@ -1,24 +1,11 @@
-# README
+参考URL
+・https://web-camp.io/magazine/archives/18258
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+loggerについての解説
+・https://web-camp.io/magazine/archives/18260
 
-Things you may want to cover:
+before_action
+・https://pikawaka.com/rails/before_action
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+render
+・https://pikawaka.com/rails/render
