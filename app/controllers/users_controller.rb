@@ -24,6 +24,8 @@ class UsersController < ApplicationController
 
   # POST /users or /users.json
   def create
+    # logger.info("user_params: #{params.require(:user).permit(:name, :age)}")
+
     @user = User.new(user_params)
 
     respond_to do |format|
